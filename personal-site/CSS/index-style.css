@@ -1,0 +1,84 @@
+* {
+	font-family: 'Lato', sans-serif;
+	width: 1000px;
+	margin: auto;
+}
+
+header.top {
+	display:block;
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+}
+
+header.top h1 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 120px;
+	color:#97D3D3;
+}
+
+ul.menu {
+	padding:0px 0px 10px 0px;
+	border-bottom: double;
+	border-color: rgb(192,192,192);
+}
+
+ul.menu li {
+	display: inline;
+	padding-right: 20px;
+}
+
+body {
+	font-size: 16px;
+	background color: blue;
+	color: black;
+}
+
+div.bio p {
+	text-align: left;
+	position: relative;
+	left: 30px;
+}
+
+@media (max-width: 500px) {
+	li {
+		display: block;
+	}
+}
+
+img.selfie {
+	max-width: 15%;
+	max-height: 15%;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	float: left;
+}
+
+nav {
+	text-align: center;
+	background: rgba(151,211,211,0.3);
+	padding: 10px;
+}
+
+nav a {
+	padding: 10px;
+}
+
+img.sample {
+	max-width: 50%;
+	max-height: 50%;
+	padding: 40px;
+}
+
+footer {
+	font-size: 10px;
+	text-align: right;
+	color: rgb(192,192,192);
+}
+
+p>strong {
+	color:#97D3D3;
+}
