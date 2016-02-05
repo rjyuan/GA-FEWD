@@ -1,0 +1,141 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans' !important;
+	margin: 0 auto;
+}
+
+/*top section*/
+
+header {
+	background: url("../images/header_bg.jpg") no-repeat center center fixed; 
+  	background-size: cover;
+	background-color: #121212;
+	color: white;
+	padding: 50px 10% 200px 10%;
+}
+
+h1 { 
+	font-weight: 800;
+	font-size: 24px;
+	float: left;
+}
+
+header p {
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	margin: 120px 0 100px;
+}
+
+.signup1 {
+	font-weight: 800;
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: #f9e42e;
+	padding: 10px 0px;
+	margin: 0 auto;
+	display: block;
+	width: 300px;
+	text-align: center;
+	color: #033048;
+}
+
+/*middle section*/
+
+.benefits {
+	background-color: #f0efef;
+	font-weight: 300;
+	font-size: 13px;
+	padding: 100px 80px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+.testimonial {
+	background: url("../images/testimonial_bg.jpg") no-repeat center center fixed; 
+  	background-size: cover;
+	padding: 150px 0px;
+	color: white;
+	text-align: center;
+}
+
+blockquote {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#sig {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.signup2 {
+	font-weight: 800;
+	font-size: 12px;
+	border-radius: 5px;
+	background-color: #033048;
+	padding: 10px 20px;
+	margin: 0 auto;
+	display: block;
+	width: 300px;
+	text-align: center;	
+	color: white;
+}
+
+aside {
+	background-color:#f9e42e;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+/*bottom section*/
+
+footer>p {
+	font-size: 24px;
+	font-weight: 800;
+	color: #f9e42e;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0;
+}
+
+.copyright {
+	font-size: 9px;
+	font-weight: 600;
+	color: white;
+}
+
+footer {
+	background-color: #121212;
+}
+
+footer ul {
+	text-align: center;
+}
+
+ul img {
+	width: 80%;
+	height: auto;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 40px;
+}
+
+@media (max-width: 500px) {
+	li p blockquote{
+		display: block;
+	}
