@@ -1,0 +1,260 @@
+/*
+Project Name: relaxr-blog
+Client: Relaxr
+Author: Rose Yuan
+Developer @GA in SF
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    font-family: 'Open Sans' !important;
+    overflow: auto;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #606161;
+     font-size: 24px;
+     line-height: 1.4;
+     font-weight: 300;
+}
+
+nav .highlight:hover {
+  color: white;
+}
+
+.highlight:hover {
+  color: #606161;
+}
+
+/*@media (max-width: 500px) {
+  li p blockquote{
+    display: block;
+  }*/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+body {
+  background-color: #f0efef;
+}
+
+header {
+  background-color: #033048;
+  padding: 0px 20px;
+}
+
+section {
+  width: 700px;
+  height: auto;
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+aside {
+  width: 240px;
+  height: auto;
+  float: right;
+  padding-right: 20px;
+  color: #033048;
+}
+
+.button {
+  clear: both;
+}
+
+footer {
+  background-color: #121212;
+  clear: both;
+}
+
+/*Header*/
+
+h1 {
+  color: white;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li { 
+  display: inline-block;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+nav ul li a {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+/*Articles*/
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.firstcharacter { 
+  float: left; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding: 4px 8px 0px 3px;
+  overflow: hidden;
+}
+
+article a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+}
+
+hr {
+  color: #033048;
+  clear: both;
+  margin-right: 20px;
+}
+
+article img {
+  width: 650px;
+  height: auto;
+}
+
+/*Aside*/
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+aside img {
+  width: 220px;
+  height: auto;
+  margin-top: 40px;
+}
+
+aside p {
+  padding: 0 0 0 10px;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+aside a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  padding: 0 0 0 10px;
+  text-decoration: none;
+}
+
+/*Bottom Section*/
+
+.button {
+  background-color:#f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.signup2 {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  text-align: center; 
+  color: white;
+}
+
+footer>p {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+}
+
+footer ul {
+  text-align: center;
+}
+
+ul img {
+  width: 80%;
+  height: auto;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 40px;
+}
