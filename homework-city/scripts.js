@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
-    /*prevent page from refreshing*/
+    // prevent page from refreshing
 	$('#submit-btn').click(function(event){
 	    event.preventDefault();
 	});
 
-    /*store value of input into variable 'city'*/
+    // store value of input into variable 'city'
 	var city = $('#city-type').val();
 
-    /*main function where if
-    "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
-    "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg
-    "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg
-    "Austin" or "ATX" make the background of the page austin.jpg
-    "Sydney" or "SYD" make the background of the page sydney.jpg*/
+    // main function where if
+    // "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
+    // "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg
+    // "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg
+    // "Austin" or "ATX" make the background of the page austin.jpg
+    // "Sydney" or "SYD" make the background of the page sydney.jpg
 	$('#submit-btn').click(function(){
         var city = $('#city-type').val();
         if (city==='New York City' || city==='NYC'){

@@ -1,7 +1,16 @@
-body, input, button {
+body {
   font-family: sans-serif;
   font-size: 20px;
   text-align: center;
+  background-image: center no-repeat;
+  background-size: cover;
+}
+
+input, button {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color:white;
 }
 #inputs {
   margin-bottom: 30px;
@@ -27,4 +36,16 @@ button:active {
 #comparison {
   display: inline-block;
   width: 40px;
+}
+
+.fire {
+  background-image: url(images/fire.jpg);
+}
+
+.cold {
+  background-image: url(images/cold.jpg);
+}
+
+.moderate {
+  background-image: url(images/moderate.jpg);
 }
