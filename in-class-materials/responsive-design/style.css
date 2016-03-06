@@ -1,0 +1,128 @@
+/*
+Project Name: relaxr-blog
+Client: Relaxr
+Author: Rose Yuan
+Developer @GA in SF
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+
+/* Clear fix hack */
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*@media (max-width: 500px) {
+  li p blockquote{
+    display: block;
+  }*/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background-color: #4A86E8;
+}
+
+header {
+  background-color: #EEEEEE;
+  height: 150px;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+  padding: 20px 50px;
+  margin: 10px;
+  width: 50px;
+  height: 25px;
+  color: #D9D9D9;
+  list-style: none;
+  background-color: #D9D9D9;
+}
+
+aside {
+  display: inline;
+  display: none;
+  float: right;
+  width: 70px;
+  height: 65px;
+  background-color: #D9D9D9;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+hr {
+  background-color: gray;
+  margin: 10px;
+  height: 2px;
+}
+
+div {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 80%;
+  display: center;
+  height: 200px;
+  padding: 50px 0px;
+  background-color: #EEEEEE;
+}
+
+section {
+  width: 28%;
+  height: 200px;
+  margin: 5px 27px;
+  background-color: white;
+}
+
+#first, #second, #third {
+  float: left;
+}
+
+/*RESPONSIVE DESIGN*/
+@media (max-width: 768px),(orientation: portrait) {
+  nav{
+    display: none;
+  }
+
+  section{
+    width: 30%;
+  }
+
+  aside {
+  display: inline;
+  float: right;
+  width: 70px;
+  height: 65px;
+  background-color: #D9D9D9;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px;
+}
+
+#bottom {
+  height: 700px;
+}
+
+#first, #second, #third {
+  float: none;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+}
