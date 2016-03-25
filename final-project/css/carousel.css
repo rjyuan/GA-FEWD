@@ -1,0 +1,16 @@
+/*div.carousel-inner {
+	margin: 20px;
+	padding: 100px;
+}*/
+
+div.carousel-caption {
+	position: absolute;
+	bottom:0;
+}
+
+img.slides {
+	width: 60%;
+	height: auto;
+	margin: auto;
+}
+
